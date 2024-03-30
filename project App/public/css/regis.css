@@ -1,0 +1,71 @@
+html{
+    height: 100%;
+  }
+  body {
+      margin:0;
+      padding:0;
+      font-family: sans-serif;
+      background:#ffffff;
+    }
+    .img{
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+    }
+    .regis-box {
+      position: absolute;
+      top: 50%;
+      left: 70%;
+      width: 600px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: #E1DDDD;
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
+      border-radius: 10px;
+    }
+    .regis-box h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #000000;
+      text-align: center;
+    }
+    ::placeholder {
+      text-align: center;
+      }
+    .user-box input {
+      text-align: center;
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #000000;
+      margin-bottom: 10px;
+      border: 1px solid #fff;
+      border-radius: 5em;
+      outline: none;
+      background: white;
+    }
+    .regis-box button  {
+      background-color: #FFDE59; /* YELLOW */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      border-radius: 5em;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 10px;
+      box-shadow: 0 0.4px 5px rgba(0,0,0,.6);
+      text-shadow: 0.2px 0.2px 0.2px #000000;
+      }
+      .text-muted{
+        text-align: center;
+        margin-top: 10px;
+      }
+      #buttonnav {
+        margin-right: 10px;
+        color: white;
+        border-radius: 5em;
+      }
